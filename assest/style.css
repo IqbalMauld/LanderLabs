@@ -306,7 +306,7 @@
         flex-direction: column;
         align-items: center;
         position: absolute;
-        background-color: var(--accent-color);
+        background-color: #8f17ff96;
         width: 100%;
         top: -100%;
         transform: scaleY(0);
