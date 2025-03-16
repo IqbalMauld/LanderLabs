@@ -103,7 +103,7 @@
         background-image: url(./img/bgimage2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center -100px;
+        background-position: center -5px;
         /* background: linear-gradient(to right, #850dd5, #400094); */
         backdrop-filter: blur(5px);
         position: relative;
