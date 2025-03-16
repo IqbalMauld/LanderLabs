@@ -46,6 +46,7 @@
     }
     .navbar .logo span{
         color: var(--text-color);
+        font-size: 15px;
     }
     .navbar .navbar-nav{
         display: flex;
