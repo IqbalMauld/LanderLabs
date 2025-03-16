@@ -315,7 +315,7 @@
 /* Default untuk HP kecil */
 
 /* Phone */
-@media (max-width: 480px){
+@media (max-width: 600px){
 
     .navbar .navbar-nav {
         display: flex;
@@ -360,7 +360,7 @@
 
 }
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 .navbar .navbar-nav a{
     font-size: 15px
 }
