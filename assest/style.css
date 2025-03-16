@@ -144,6 +144,11 @@
         min-height: 100vh;
         padding-top: 100px;
     }
+    .about main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .about main h1{
         text-align: center;
     }
@@ -186,6 +191,7 @@
     .review main{
         display: flex;
         flex-direction: column;
+        align-items: center;
         
     }
     .review main h1{
