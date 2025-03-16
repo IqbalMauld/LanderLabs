@@ -322,7 +322,8 @@
 @media (max-width: 600px){
 header{
     position : fixed;
-}.navbar .navbar-nav {
+}
+    .navbar .navbar-nav {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -342,8 +343,6 @@ header{
         color: var(--text-color);
     }
     .navbar-nav.active {
-        
-        
         top: 45px;
         transform: scaleY(1);
     }
@@ -362,17 +361,27 @@ header{
        .hero main p:nth-child(1), .hero main p:nth-child(2){
         font-size: 35px;
     }
-
+.upfirst, .second{
+    flex-direction: column;
 }
+.firstR{
+    flex-direction: column;
+    justify-content: center;
+}
+.twoR{
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Tablet *
 @media (max-width: 800px) {
 .navbar .navbar-nav a{
     font-size: 15px
 }
-.hero main h1{
-    font-size: 20px;
+.hero main p:nth-child(1), .hero main p:nth-child(2){
+    font-size: 35px;
 }
-.hero main p{
+.hero main p:nth-child(3){
     font-size: 15px;
 }
 .upfirst, .second{
@@ -391,5 +400,5 @@ header{
     align-items: start;
 }
 
-}
+
 
