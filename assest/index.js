@@ -6,6 +6,13 @@ menu.addEventListener('click', ()=>{
 
     navbarNav.classList.toggle('active')
 })
+
+document.addEventListener('click', function(e){
+    if(!menu.contains(e.target) && !navbarNav.contains(e.target)){
+        navbarNav.classList.remove('active')
+    }
+})
+
 const pertama = document.getElementById('pertama')
 const pertamaP = document.getElementById('pertamaP')
 const kedua = document.getElementById('kedua')
