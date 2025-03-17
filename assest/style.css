@@ -87,7 +87,6 @@
         transform: scaleX(0);
     }
     .navbar .navbar-nav a:hover::after{
-        
         transform: scaleX(0.7);
         transition: 0.3s linear;
     }
@@ -131,8 +130,9 @@
         z-index: 2;
     }
     .hero main p:nth-child(1), .hero main p:nth-child(2){
-        font-size: 40px;
+        font-size: 45px;
         text-align: center;
+        font-weight: bold;
     }
     .hero main p:nth-child(3){
         text-align: center;
@@ -320,20 +320,19 @@
 
 /* Phone */
 @media (max-width: 600px){
-header{
-    position : fixed;
-}
+
     .navbar .navbar-nav {
         display: flex;
         flex-direction: column;
         align-items: center;
         position: absolute;
         background-color: #8f17ff96;
-        width: 100%;
-        top: -100%;
-        transform: scaleY(0);
+        width: 50%;
+        top: 45px;
+        /* left: -100%; */
+        transform: scaleX(0);
         transition: transform 0.4s ease-in-out, top 0.4s ease-in-out;
-        transform-origin: top;
+        transform-origin: left;
         z-index: -999;
     }
     .navbar .navbar-nav a{
@@ -344,7 +343,7 @@ header{
     }
     .navbar-nav.active {
         top: 45px;
-        transform: scaleY(1);
+        transform: scaleX(1);
     }
     
        .navbar-extra{
@@ -359,29 +358,22 @@ header{
        }
 
        .hero main p:nth-child(1), .hero main p:nth-child(2){
-        font-size: 35px;
+        font-size: 30px;
     }
-.upfirst, .second{
-    flex-direction: column;
-}
-.firstR{
-    flex-direction: column;
-    justify-content: center;
-}
-.twoR{
-    flex-direction: column;
-    justify-content: center;
-}
+    .hero main p:nth-child(3){
+        font-size: 15px;
+    }
 
-/* Tablet *
+}
+/* Tablet */
 @media (max-width: 800px) {
 .navbar .navbar-nav a{
     font-size: 15px
 }
-.hero main p:nth-child(1), .hero main p:nth-child(2){
-    font-size: 35px;
+.hero main h1{
+    font-size: 20px;
 }
-.hero main p:nth-child(3){
+.hero main p{
     font-size: 15px;
 }
 .upfirst, .second{
@@ -399,6 +391,9 @@ header{
     flex-direction: column;
     align-items: start;
 }
+.hero main p:nth-child(1), .hero main p:nth-child(2){
+    font-size: 35px;
+}
 
-
+}
 
